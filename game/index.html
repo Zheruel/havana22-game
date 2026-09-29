@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="hr">
+<head>
+<meta charset="utf-8">
+<title>HAVANA 22 — Večernja smjena</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="assets/icons/cigar_cohiba.png">
+</head>
+<body>
+<canvas id="game" width="1280" height="720" tabindex="0"></canvas>
+<noscript>Za ovu igru je potreban JavaScript.</noscript>
+
+<!-- data files (window.* globals; the engine falls back to defaults if one is missing) -->
+<script src="content/layout.js"></script>
+<script src="content/icons.js"></script>
+<script src="content/atlas_A.js"></script>
+<script src="content/atlas_B.js"></script>
+<script src="content/atlas_C.js"></script>
+<script src="content/atlas_D.js"></script>
+<script src="content/content.js"></script>
+
+<!-- engine -->
+<script src="src/util.js"></script>
+<script src="src/data.js"></script>
+<script src="src/save.js"></script>
+<script src="src/audio.js"></script>
+<script src="src/assets.js"></script>
+<script src="src/input.js"></script>
+<script src="src/nav.js"></script>
+<script src="src/entities.js"></script>
+<script src="src/ui.js"></script>
+<script src="src/game.js"></script>
+<script src="src/screens.js"></script>
+<script src="src/tree.js"></script>
+<script src="src/events.js"></script>
+<script src="src/regulars.js"></script>
+<script src="src/achv.js"></script>
+<!-- test hooks (window.__game, autoplay bot, god mode): only with ?debug=1 in the URL, never in the normal build -->
+<script>if (/[?&]debug=1/.test(location.search)) document.write('<script src="src/debug.js"><\/script>');</script>
+<script src="src/main.js"></script>
+</body>
+</html>

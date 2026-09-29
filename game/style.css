@@ -1,0 +1,14 @@
+html, body { margin: 0; padding: 0; height: 100%; background: #050302; overflow: hidden; }
+body { display: flex; align-items: center; justify-content: center; }
+#game {
+  display: block;
+  width: 1280px; height: 720px;
+  max-width: 100vw; max-height: 100vh;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+  background: #000;
+  cursor: default;
+  outline: none;
+}
+noscript { color: #ffd58a; font: 20px sans-serif; }

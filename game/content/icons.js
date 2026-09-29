@@ -1,0 +1,26 @@
+// Icon paths (art-env). Each is a 64x64 transparent PNG.
+window.ICONS = {
+  cigar_robusto: 'assets/icons/cigar_robusto.png',
+  cigar_corona: 'assets/icons/cigar_corona.png',
+  cigar_cohiba: 'assets/icons/cigar_cohiba.png',
+  cigar_hoyo: 'assets/icons/cigar_hoyo.png',
+  cigar_sancho: 'assets/icons/cigar_sancho.png',
+  cigar_cheap: 'assets/icons/cigar_cheap.png',
+  rum_caroni: 'assets/icons/rum_caroni.png',
+  whisky: 'assets/icons/whisky.png',
+  cognac: 'assets/icons/cognac.png',
+  beer_tap: 'assets/icons/beer_tap.png',
+  beer_velebitsko: 'assets/icons/beer_velebitsko.png',
+  espresso: 'assets/icons/espresso.png',
+  martini: 'assets/icons/martini.png',
+  black_chocolate: 'assets/icons/black_chocolate.png',
+  star: 'assets/icons/star.png',
+  star_empty: 'assets/icons/star_empty.png',
+  smoke_puff: 'assets/icons/smoke_puff.png',
+  warning: 'assets/icons/warning.png',
+  euro: 'assets/icons/euro.png',
+  speech: 'assets/icons/speech.png',
+  lighter: 'assets/icons/lighter.png',
+  cutter: 'assets/icons/cutter.png',
+  humidor_key: 'assets/icons/humidor_key.png'
+};

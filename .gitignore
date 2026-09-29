@@ -1,0 +1,8 @@
+.DS_Store
+reference/
+tools/.venv/
+tools/chars_*/
+tools/engine_stub/
+tools/env_*
+*.raw.png
+*.log

@@ -1,0 +1,1 @@
+Dvaput klikni game/index.html (Chrome, Edge ili Firefox): WASD hodaj, E posluži, Q „Izlazite!“, Esc pauza, M zvuk. Detalji su u game/README.md.
